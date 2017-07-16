@@ -11,9 +11,7 @@
  *
  * Version: 1.0.3
  */
-!function(e){if("object"==typeof exports)module.exports=e();else if("function"==typeof define&&define.amd)define(e);else{var f;"undefined"!=typeof window?f=window:"undefined"!=typeof global?f=global:"undefined"!=typeof self&&(f=self),f.BehaviorTree=e()}}(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"Base":[function(_dereq_,module,exports){
-module.exports=_dereq_('3iKuuX');
-},{}],"3iKuuX":[function(_dereq_,module,exports){
+!function(e){if("object"==typeof exports)module.exports=e();else if("function"==typeof define&&define.amd)define(e);else{var f;"undefined"!=typeof window?f=window:"undefined"!=typeof global?f=global:"undefined"!=typeof self&&(f=self),f.BehaviorTree=e()}}(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/hvVbF":[function(_dereq_,module,exports){
 (function (global){
 (function browserifyShim(module, exports, define, browserify_shim__define__module__export__) {
 /*
@@ -161,6 +159,8 @@ Base = Base.extend({
 }).call(global, undefined, undefined, undefined, function defineExport(ex) { module.exports = ex; });
 
 }).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{}],"Base":[function(_dereq_,module,exports){
+module.exports=_dereq_('/hvVbF');
 },{}],3:[function(_dereq_,module,exports){
 
 module.exports = _dereq_('./decorator').extend({
@@ -249,7 +249,7 @@ BehaviorTree.getNode = function(name) {
 
 module.exports = BehaviorTree;
 
-},{"../lib/base":"3iKuuX"}],6:[function(_dereq_,module,exports){
+},{"../lib/base":"/hvVbF"}],6:[function(_dereq_,module,exports){
 
 var BehaviorTree = _dereq_('./behavior_tree');
 
@@ -368,7 +368,7 @@ module.exports = _dereq_('../lib/base').extend({
   }
 });
 
-},{"../lib/base":"3iKuuX"}],11:[function(_dereq_,module,exports){
+},{"../lib/base":"/hvVbF"}],11:[function(_dereq_,module,exports){
 
 module.exports = _dereq_('./branch_node').extend({
   success: function() {
